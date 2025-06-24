@@ -1,0 +1,15 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>公司主页</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="login-page">
+    <div class="login-box">
+        <h2>欢迎，{{ username }}！</h2>
+        <p>这是公司内网的主页。</p>
+    </div>
+</body>
+</html>
