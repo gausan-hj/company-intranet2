@@ -1,0 +1,42 @@
+/* static/styles.css */
+body.login-page {
+    background-color: #0b1f33;  /* 深蓝色背景 */
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #132b45;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.3);
+    width: 300px;
+}
+
+.login-box h2 {
+    color: #ff8000;  /* 橙色标题 */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
